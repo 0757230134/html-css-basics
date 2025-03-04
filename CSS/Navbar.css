@@ -1,0 +1,190 @@
+style >
+
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Dancing+Script:wght@400..700&family=Oswald:wght@200..700&display=swap');
+
+style >
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Atkinson Hyperlegible Next", serif;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+    align-items: center;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+}
+
+.company-name {
+    font-family: "Courier New";
+    font-size: 50px;
+    font-weight: bolder;
+    color: crimson;
+    margin-left: 18px;
+}
+
+.nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav ul li {
+    margin-left: 15px;
+    margin-right: 18px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: brown;
+    font-family: "Atkinson Hyperlegible Next", serif;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    color: darkgreen;
+}
+
+/*hero section*/
+.hero {
+    min-height: 78vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../images/img4.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content {
+
+
+    background: rgba(95, 132, 206, 0.5);
+    background: linear-gradient(135deg, rgba(95, 132, 206, 0.5), rgba(229, 108, 82, 0.6));
+    padding: 40px 45px;
+    text-align: center;
+    color: #5ffbf1;
+
+}
+
+.content h1 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: crimson;
+
+}
+
+.content p {
+    font-weight: lighter;
+    font-family: "Arial Black";
+    text-align: center;
+    font-size: 1.2em;
+
+}
+
+footer {
+    background: navajowhite;
+    color: black;
+    padding: 28px 19px;
+    min-height: 18px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.social img {
+    width: 42px;
+    margin: 18px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 12px;
+
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-bottom: 32px;
+}
+
+footer ul li {
+    margin-left: 15px;
+    border-right: 1px solid black;
+    padding-right: 12px;
+}
+
+footer a {
+    text-decoration: none;
+    color: darkred;
+    font-size: 01.6em;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.last{
+    border: none;
+}
+
+/*section*/
+.section{
+    display: flex;
+    height: 80vh;
+}
+
+.child{
+   width:  50%
+}
+
+.child img{
+   max-width:  100%;
+    max-height: 100%;
+    height: 100%;
+
+}
+
+.content-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Atkinson Hyperlegible Next", serif;
+    font-size: large;
+}
+.content-text h1{
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-weight: 456;
+}
+.content-text p{
+    line-height: 30px;
+    margin-bottom: 23px;
+}
+.content-text a{
+    text-decoration-color: darkred;
+    color: darkred;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+
