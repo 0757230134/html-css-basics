@@ -1,0 +1,11 @@
+.hero{
+    background: url("../imgs/img5.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container{
+display: flex;
+
+
+}
