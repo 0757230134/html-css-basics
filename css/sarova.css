@@ -4,8 +4,6 @@
     background-position: center;
     background-size: cover;
 }
-.container{
-display: flex;
-
-
+.social img{
+width: 35px;
 }
