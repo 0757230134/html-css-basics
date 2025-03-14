@@ -1,5 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Emblema+One&display=swap');
+
 .hero{
-    background: url("../imgs/img5.jpg");
+    background: url("../imgs/img cover.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -7,3 +10,29 @@
 .social img{
 width: 35px;
 }
+
+.emblema-one-regular {
+  font-family: "Emblema One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.big-shoulders {
+  font-family: "Big Shoulders", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.ponomar-regular {
+  font-family: "Ponomar", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.special-color{
+    color: red;
+}
+
+
+/* bootstrapstudio.io*/
+/* designmodo.com */
